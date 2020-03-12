@@ -1,0 +1,66 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-image: url("../photos/aerial-view-of-green-trees-and-river-3845082.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+h1 {
+    text-shadow:2px 2px black;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size:4em;
+    color: rgba(244, 246, 248, .9);
+}
+section {
+    display:flex;
+    flex-direction: column;
+    width:25vw;
+    height:50vh;
+    background-color: honeydew;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:15vh;
+    border:1px solid black;
+    border-radius:20px;
+}
+a {
+    text-decoration: none;
+    font-size: 2em;
+    margin-top:10px;
+}
+a:first-child {
+    margin-bottom:-10px;
+}
+#search {
+    margin-top: 10px;
+}
+input[type=text] {
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    margin-top:30px;
+    width: 8vw;
+    height: 4vh;
+    color:white;
+    font-size: larger;
+    background-color: blue;  
+}
+
+/* register.php  page */
+
+#register {
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* login.php  page */
+
+#login {
+    display:flex;
+    flex-direction: column;
+}
